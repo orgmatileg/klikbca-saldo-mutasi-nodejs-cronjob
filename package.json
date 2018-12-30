@@ -1,12 +1,12 @@
 {
-  "name": "nodejscron",
+  "name": "Cek Saldo Klikbca dengan Node.js + Cron Job",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ."
   },
-  "author": "",
+  "author": "Luqmanul Hakim",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^6.2.0",
