@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+  nodejs:
+    container_name: micro-service-ceksaldoKlikBCA
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    command: node .
+    environment:
+    - TELEGRAM_BOT_TOKEN=
+    - TELEGRAM_USER_ID=
+    - KLIKBCA_USER=
+    - KLIKBCA_PASSWORD=
